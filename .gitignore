@@ -3,3 +3,5 @@ sample.txt
 .aider*
 .cache
 /cache
+
+.idea*
