@@ -95,7 +95,17 @@
     
     <pattern name="External Libraries">
       <description>jotai, zod, tanstack, react-aria, recharts, xyflow, mermaid and vega</description>
-      <use_cases>Complex application state, server state management, data visualization, base UI components, accessibility, form validation, data fetching, flow diagrams, interactive charts</use_cases>
+      <use_cases>
+        <pattern name="Complex application state">Global state management with atomic updates</pattern>
+        <pattern name="Server state management">Caching, synchronization, and data fetching</pattern>
+        <pattern name="Data visualization">Charts, graphs, and interactive data displays</pattern>
+        <pattern name="Base UI components">Accessible, composable interface elements</pattern>
+        <pattern name="Accessibility">ARIA compliance and keyboard navigation</pattern>
+        <pattern name="Form validation">Schema-based input validation and error handling</pattern>
+        <pattern name="Data fetching">API queries, mutations, and cache management</pattern>
+        <pattern name="Flow diagrams">Node-based visual workflows and processes</pattern>
+        <pattern name="Interactive charts">Dynamic data visualization with user interaction</pattern>
+      </use_cases>
     </pattern>
   </state_management>
 </react_patterns>
