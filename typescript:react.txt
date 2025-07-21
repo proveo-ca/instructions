@@ -94,7 +94,7 @@
     </pattern>
     
     <pattern name="External Libraries">
-      <description>Zustand, Redux Toolkit, Jotai</description>
+      <description>jotai, zod, tanstack, react-aria, recharts, xyflow, mermaid and vega</description>
       <use_cases>Complex application state, server state management</use_cases>
     </pattern>
   </state_management>
